@@ -1,0 +1,27 @@
+/* ========== header ========== */
+.brand {
+  font-weight: bold;
+  font-size: 20px; 
+  margin-left: 20px;
+}
+  
+ 
+header {
+  position: relative;
+  background-color: #ffff; 
+  border:3px solid rgb(61, 79, 238);
+  border-radius: 0 0 10px 10px ;
+  border-top: none;
+}
+
+.nav__wrapper{
+  list-style: none;
+}
+
+.ball-icon{
+  background-image: url('monbo.png');
+
+}
+ 
+
+/* ========== header ========== */

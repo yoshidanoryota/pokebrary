@@ -1,0 +1,22 @@
+/* ========== footer ========== */
+footer {
+  position: relative;
+  border:3px solid rgb(61, 79, 238);
+  border-radius: 10px 10px 0 0 ;
+  border-bottom: none;
+  background-color: #ffff; 
+}
+
+.nav__wrapper{
+  list-style: none;
+}
+
+.footer-message{
+  text-align: center;
+  font-size: 18px;
+  font-weight:lighter;
+}
+
+
+
+/* ========== footer ========== */
