@@ -181,9 +181,11 @@
 
       
     </div>
-       <div class="info-new" >
-    <button class="info-new-btn" id="modal-open-new" >お知らせ追加</button>
+    <% if user_signed_in? && current_user.id == 1%>
+    <div class="info-new" >
+      <button class="info-new-btn" id="modal-open-new" >お知らせ追加</button>
     </div>
+    <%end%>
 
 
 
