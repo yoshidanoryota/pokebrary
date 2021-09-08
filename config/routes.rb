@@ -23,6 +23,7 @@ Rails.application.routes.draw do
 
     collection do
       get 'success'
+      get 'success2'
       get 'search'
       get 'all'
      end

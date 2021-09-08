@@ -4,9 +4,10 @@
   <div class="article-show-second">
 
     <h4 class="show-date"><%=@article.created_at.strftime("%Y年%m月%d日")%></h4>
-    <h1 class="show-monster-title"><%= @article.title %>
+    <h1 class="show-monster-title"><%= @article.title %></h1>
     <%if user_signed_in? && current_user.id == @article.user_id%>
       <span clas="edit-link"><%= link_to "編集する", edit_article_path(@article.id), class:'edit-btn' %></span>
+      <span clas="edit-link"><%= link_to "削除する", article_path(@article.id), method: :delete,  class:'edit-btn' %></span>
     <%end%>
     
     </h1><br>

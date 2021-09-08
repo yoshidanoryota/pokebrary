@@ -1,6 +1,6 @@
 class ArticlesController < ApplicationController
   before_action :authenticate_user!, only: [:new, :edit]
-  before_action :article_find, only: [:update, :show, :edit]
+  before_action :article_find, only: [:update, :show, :edit,:destroy]
 
   def index
     @articles = Article.all.order(created_at: 'DESC').limit(20)
@@ -38,7 +38,16 @@ class ArticlesController < ApplicationController
     end
   end
 
+  def destroy
+    if @article.destroy
+      redirect_to success2_articles_path
+    end
+  end
+
   def success
+  end
+
+  def success2
   end
 
   def search
