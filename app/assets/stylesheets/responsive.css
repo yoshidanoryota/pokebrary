@@ -100,6 +100,25 @@
 
 /* ========== info index ========== */
 
+@media (max-width: 1266px) {
+  .first-message-box{
+    width:500px
+  }
+  .second-message-box{
+  width: 500px;
+  }
+  .third-message-box{
+    width: 500px;
+  }
+  .force-message-box{
+    width: 500px;
+  }
+  .fifth-message-bo{
+    width: 500px;
+  }
+}
+
+
 @media (max-width: 500px) {
   .select-ul{
     display: flex;
