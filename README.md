@@ -23,7 +23,7 @@
  ---
  -  URL(TOPページ)：https://pokebrary.herokuapp.com/
  -  テスト用アカウント <br>
-  メールアドレス：test@tes<br>
+  メールアドレス：test@test<br>
   パスワード：123asd
  - Basic認証<br>
  ID：admin<br>
