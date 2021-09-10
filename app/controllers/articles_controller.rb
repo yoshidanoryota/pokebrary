@@ -4,7 +4,7 @@ class ArticlesController < ApplicationController
 
   def index
     @articles = Article.all.order(created_at: 'DESC').limit(20)
-    @rank = Article.order(impressions_count: 'DESC').limit(5)
+    @rank = Article.order(impressions_count: 'DESC',created_at: 'DESC').limit(5)
 
     @pokerank1 = @rank.sample
     @pokerank2 = @rank.sample
