@@ -425,11 +425,10 @@
 
 .notice-body{
   width: 590px;
-  height: 80vh;
+  height: 700px;
   background-color: #ffffff;
   margin: 0 auto;
   margin-bottom: 50px;
-  overflow: scroll;
   border-radius: 10px 10px 0 0;
   margin-top: 95px;
 }
@@ -447,6 +446,7 @@
   background-position: 27%;
   background-color: #d6f1db;
   border-radius: 10px 10px 0 0;
+  border-bottom: 1px dotted black;
 }
 
 .notice-area{
@@ -495,7 +495,13 @@
 
 .info-new-btn:hover{
   opacity: 0.7;
-  
+}
+
+.info-scroll{
+  width: 590px;
+  height:650px;
+  overflow: scroll;
+  border-bottom: 2px dotted black;
 }
 
 .modal-open-delete{
