@@ -87,6 +87,22 @@
 <br>
 <br>
 
+## --ローカルでの動作方法--
+---
+### git cloneコマンド  <br>
+git clone https://github.com/yoshidanoryota/pokebrary.git
+
+### 開発環境
+Ruby / Ruby on Rails / HTML / CSS/ JavaScript / MySQL / GitHub / Heroku / Visual Studio Code
+
+
+
+###
+
+
+<br>
+<br>
+
  ## --データベースER図--
  ---
  

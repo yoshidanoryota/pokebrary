@@ -6,7 +6,7 @@
 
 $(function(){
  
-  //テキストリンクをクリックしたら
+  //テキストリンクをクリック
  $("#modal-open-new").click(function(){
       //body内の最後に<div id="modal-bg"></div>を挿入
      $("body").append('<div id="modal-bg"></div>');
@@ -56,7 +56,7 @@ $(function(){
     document.getElementById("notice-delete").click();
   };
  
-  //テキストリンクをクリックしたら
+  //テキストリンクをクリック
  $("#modal-open-delete").click(function(){
       //body内の最後に<div id="modal-bg"></div>を挿入
      $("body").append('<div id="modal-bg"></div>');
@@ -103,7 +103,7 @@ $(function(){
 
 $(function(){
  
-  //テキストリンクをクリックしたら
+  //テキストリンクをクリック
  $("#modal-open-comment").click(function(){
       //body内の最後に<div id="modal-bg"></div>を挿入
      $("body").append('<div id="modal-bg"></div>');
