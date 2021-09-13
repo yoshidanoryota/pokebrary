@@ -158,7 +158,7 @@
           <div class="notice-text">
           <%= info.text%>
           </div>
-           <% if user_signed_in? && current_user.id == 1%>
+           <% if user_signed_in? %>
           <p class="modal-open-delete" id="modal-open-delete">削除する</p>
           <%= link_to "削除する", infomation_path(info.id), method: :DELETE, id: 'notice-delete'%>
           <%end%>
